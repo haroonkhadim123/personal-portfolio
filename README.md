@@ -31,3 +31,4 @@ JavaScript – For adding interactivity like animations, form validations, and d
 ✅ Contact form – Simple contact form with basic JavaScript validation.
 
 ✅ Social media links – Links to my LinkedIn, GitHub, and other platforms.
+Live Demo:https://aesthetic-pika-e77d35.netlify.app/
