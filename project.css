@@ -1,0 +1,89 @@
+#Project {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+
+}
+
+#Project h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.project-box {
+    width: 370px;
+    height: 250px;
+    background-image: url(netflix.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap: 5px;
+    position: relative;
+
+
+}
+
+.project-box h3 {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.project-box a {
+    color: black;
+    position: absolute;
+    top: 1%;
+    right: 10%;
+    border: 1px solid;
+    padding: 5px;
+    background-color: cornflowerblue;
+    font-weight: 100;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: cenetr;
+    display: flex;
+    gap: 2px;
+}
+
+.project-box a i {
+    font-weight: 12px;
+    font-size: 1rem;
+
+}
+
+.project-box1 {
+    background-image: url('food.jpeg');
+}
+
+.project-box2 {
+    background-image: url('weather.jpeg');
+}
+
+@media (max-width:768px) {
+    .project-box {
+        width: 80vw;
+    }
+}

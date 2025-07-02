@@ -1,0 +1,89 @@
+#Skill {
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    /* height: 70vh; */
+    /* position: relative; */
+    /* bottom: 120px; */
+    margin-top: 100px;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#Skill h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 120px;
+    background: rgb(104, 101, 101);
+    padding: 20px;
+    border-radius: 20px;
+    flex-direction: column;
+
+
+
+}
+
+.html {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.html i {
+    color: var(--color);
+    font-size: 30px;
+}
+
+.html i a {
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.html h3 {
+    font-size: 30px;
+}
+
+.line {
+    height: 5px;
+    border-radius: 20px;
+    width: 300px;
+    background-color: rgb(70, 72, 72);
+    width: 100%;
+
+}
+
+@media (max-width:500px) {
+    #Skill {
+        /* margin-top: 330px; */
+    }
+}
+
+@media (max-width:600px) {
+    #Skill {
+        /* margin-top: 330px; */
+    }
+}
